@@ -2,6 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
-  <Project Path="Ovning_5_Garaget.Tests/Ovning_5_Garaget.Tests.csproj" />
-  <Project Path="Ovning_5_Garaget/Ovning_5_Garaget.csproj" />
+  <Project Path="Ovning_5_Garaget.Tests/Garaget.Tests.csproj" />
+  <Project Path="Ovning_5_Garaget/Garaget.csproj" />
 </Solution>

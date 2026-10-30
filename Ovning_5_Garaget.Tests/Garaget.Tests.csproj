@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Ovning_5_Garaget\Ovning_5_Garaget.csproj" />
+    <ProjectReference Include="..\Ovning_5_Garaget\Garaget.csproj" />
   </ItemGroup>
 
   <ItemGroup>
