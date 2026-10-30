@@ -1,7 +1,7 @@
-﻿using Ovning_5_Garaget.UI;
+﻿using Garaget.UI;
 
 
-namespace Ovning_5_Garaget
+namespace Garaget
 {
     internal class Program
     {

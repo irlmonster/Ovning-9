@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Ovning_5_Garaget.Vehicles
+namespace Garaget.Vehicles
 {
     public class Boat : Vehicle
     {

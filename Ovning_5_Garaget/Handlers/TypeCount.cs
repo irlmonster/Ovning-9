@@ -1,4 +1,4 @@
-﻿namespace Ovning_5_Garaget.Handlers
+﻿namespace Garaget.Handlers
 {
     public record TypeCount(string TypeName, int Count);
     

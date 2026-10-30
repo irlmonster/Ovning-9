@@ -1,5 +1,5 @@
-﻿using Ovning_5_Garaget.Validation;
-namespace Ovning_5_Garaget.Vehicles
+﻿using Garaget.Validation;
+namespace Garaget.Vehicles
 {
     public abstract class Vehicle : IVehicle
     {

@@ -1,4 +1,4 @@
-﻿namespace Ovning_5_Garaget.Vehicles
+﻿namespace Garaget.Vehicles
 {
     public class Airplane : Vehicle
     {

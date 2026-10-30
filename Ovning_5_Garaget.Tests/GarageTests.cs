@@ -1,7 +1,7 @@
-﻿using Ovning_5_Garaget.Garages;
-using Ovning_5_Garaget.Vehicles;
+﻿using Garaget.Garages;
+using Garaget.Vehicles;
 
-namespace Ovning_5_Garaget.Tests
+namespace Garaget.Tests
 {
     public class GarageTests
     {

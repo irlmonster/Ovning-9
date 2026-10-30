@@ -1,6 +1,6 @@
-﻿using Ovning_5_Garaget.Validation;
+﻿using Garaget.Validation;
 
-namespace Ovning_5_Garaget.Tests
+namespace Garaget.Tests
 {
     public class RegNumberValidationTests
     {

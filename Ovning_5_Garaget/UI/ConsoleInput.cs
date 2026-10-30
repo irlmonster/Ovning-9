@@ -1,8 +1,8 @@
-﻿using Ovning_5_Garaget.Validation;
-using Ovning_5_Garaget.Vehicles;
+﻿using Garaget.Validation;
+using Garaget.Vehicles;
 using System.Globalization;
 
-namespace Ovning_5_Garaget.UI
+namespace Garaget.UI
 {
     // Hjälpklass för inläsning från konsolen.
     // Varje metod frågar igen tills svaret är giltigt, så programmet aldrig kraschar på dålig input.

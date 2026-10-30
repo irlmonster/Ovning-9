@@ -1,4 +1,4 @@
-﻿namespace Ovning_5_Garaget.UI
+﻿namespace Garaget.UI
 {
     // Hjälpklass för färgad utskrift i konsolen
     public static class ConsoleOutput

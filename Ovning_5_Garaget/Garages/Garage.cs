@@ -1,13 +1,13 @@
-﻿using Ovning_5_Garaget.Vehicles;
+﻿using Garaget.Vehicles;
+using System.Collections;
 
-namespace Ovning_5_Garaget.Garages
+namespace Garaget.Garages
 {
-    public class Garage
+    public class Garage<T> : IEnumerable<T> where T : class, IVehicle
     {
-        private readonly List<IVehicle> _vehicles;
+        private readonly List<T> _vehicles;
 
-        public int Capacity { get; 
-        }
+        public int Capacity { get; }
         public int Count => _vehicles.Count;
         public bool IsFull => Count >= Capacity;
 
@@ -19,11 +19,11 @@ namespace Ovning_5_Garaget.Garages
             }
 
             Capacity = capacity; // sätter det här objektet till den listan
-            _vehicles = new List<IVehicle>();
+            _vehicles = new List<T>();
         }
 
         // Park
-        public bool Park(IVehicle vehicle)
+        public bool Park(T vehicle)
         {
             if (IsFull) return false;
 
@@ -45,14 +45,9 @@ namespace Ovning_5_Garaget.Garages
             return vehicle is not null && _vehicles.Remove(vehicle);
         }
 
-        //List all vehicles
-        public List<IVehicle> GetAllVehicles()
-        {
-            return new List<IVehicle>(_vehicles); // en kopia, så ingen utanför kan ändra garagets lista
-        }
 
         // Find regnumber
-        public IVehicle? FindByRegNumber(string regNumber)
+        public T? FindByRegNumber(string regNumber)
         {
             foreach (var v in _vehicles)
             {
@@ -64,5 +59,18 @@ namespace Ovning_5_Garaget.Garages
 
 
 
+        public IEnumerator<T> GetEnumerator()
+        {
+            foreach (var vehicle in _vehicles)
+            {
+                yield return vehicle;
+            }
+
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
     }
 }

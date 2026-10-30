@@ -1,7 +1,7 @@
-﻿using Ovning_5_Garaget.Handlers;
-using Ovning_5_Garaget.Vehicles;
+﻿using Garaget.Handlers;
+using Garaget.Vehicles;
 
-namespace Ovning_5_Garaget.Tests
+namespace Garaget.Tests
 {
     public class GarageHandlerTests
     {

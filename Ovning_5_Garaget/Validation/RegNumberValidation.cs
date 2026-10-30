@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Ovning_5_Garaget.Validation
+namespace Garaget.Validation
 {
     // Denna klass svarar bara på frågor och ska inte kunna instansieras
     public static partial class RegNumberValidation
