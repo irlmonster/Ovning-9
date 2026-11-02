@@ -1,15 +1,16 @@
-﻿using Garaget.Validation;
+﻿using Garaget.Garages;
+using Garaget.Validation;
 using Garaget.Vehicles;
 
 namespace Garaget.Handlers
 {
     public class GarageHandler
     {
-        private readonly Garage _garage;
+        private readonly Garage<IVehicle> _garage;
 
         public GarageHandler(int capacity)
         {
-            _garage = new Garage(capacity);
+            _garage = new Garage<IVehicle>(capacity);
         }
 
         public bool Park(IVehicle vehicle)
@@ -24,7 +25,7 @@ namespace Garaget.Handlers
 
         public List<IVehicle> GetAllVehicles()
         {
-            return _garage.GetAllVehicles(); // returnerar en kopia av garagets List
+            return _garage.ToList(); // Nu bytt ut detta mot ToList eftersom vi har IEnumerable på garaget
         }
 
         public IVehicle? FindByRegNumber(string regNumber)
@@ -41,91 +42,57 @@ namespace Garaget.Handlers
         // Räknar hur många fordon det finns av en viss typ
         public int CountByType(string typeName)
         {
-            int count = 0;
+            var numQuery = from v in _garage
+                           where v.GetType().Name.Equals(typeName)
+                           select v;
 
-            foreach (var vehicle in GetAllVehicles())
-            {
-                if (vehicle.GetType().Name == typeName)
-                {
-                    count++;
-                }
-            }
-
-            return count;
+            return numQuery.Count();
+            
         }
 
         // Räknar hur många fordon det finns av varje typ i garaget.
-        // Returnerar t.ex. [Car: 3, Motorcycle: 2, Bus: 1]
+        // Returnerar tex. car: 3, motorcycle: 2, bus: 1
         public List<TypeCount> GetTypeCounts()
         {
-            var vehicles = GetAllVehicles(); // en kopia av alla parkerade fordon
-            var typeNames = new List<string>(); // här samlas varje typnamn, bara en gång per typ
 
-            // först ta reda på vilka typer som finns
-            foreach (var vehicle in vehicles)
-            {
-                var typeName = vehicle.GetType().Name; // klassens namn, t.ex. "Car" eller "Bus"
+            var typeCounts = _garage
+                .GroupBy(v => v.GetType().Name) // grupperar fordonen efter typnamn
+                .Select(g => new TypeCount(g.Key, g.Count())) // skapar en TypeCount för varje grupp
+                .ToList(); // konverterar till lista
 
-                // lägg bara till typen om vi inte redan sett den, så blir det inga dubbletter
-                if (!typeNames.Contains(typeName))
-                    typeNames.Add(typeName);
-            }
 
-            // sedan räkna antal fordon för varje typ vi hittade
-            var result = new List<TypeCount>();
-            foreach (var typeName in typeNames)
-            {
-                // Skapar ett TypeCount med typnamnet och antalet, och lägger det i resultatet
-                result.Add(new TypeCount(typeName, CountByType(typeName)));
-            }
-
-            return result;
+            return typeCounts;
         }
 
 
 
-        // Fritextsökning: returnerar alla fordon där något fält matchar söktermen.
-        // Varje fordon avgör själv vad som matchar via sin egen Matches-metod (polymorfism).
+        // Fritextsökning returnerar alla fordon där något fält matchar söktermen.
+        // varje fordon avgör själv vad som matchar via sin egen Matches-metod (polymorf).
         public List<IVehicle> Search(string searchTerm)
         {
+
             var term = searchTerm.Trim();
             var vehicles = GetAllVehicles();
 
+            var searchResults = vehicles.Where(v => v.Matches(term)).ToList();
 
-            // Tar bort den tidigare loopen och går bara igenom listan med vehicles
-            var result = new List<IVehicle>();
-            foreach (var vehicle in vehicles)
-            {
-                if (vehicle.Matches(term))
-                {
-                    result.Add(vehicle);
-                }
-            }
-
-            return result;
+            return searchResults;
         }
 
         // Sök på en eller flera egenskaper. Null betyder att egenskapen inte används i sökningen.
         public List<IVehicle> SearchByProperties(string? color = null, int? wheels = null, string? brand = null, string? type = null)
         {
             var vehicles = GetAllVehicles();
-            var result = new List<IVehicle>();
+            var matches = vehicles.Where(v => MatchesProperties(v, color, wheels, brand, type)).ToList();
 
-            foreach (var vehicle in vehicles)
-            {
-                if (MatchesProperties(vehicle, color, wheels, brand, type))
-                {
-                    result.Add(vehicle);
-                }
-            }
-
-            return result;
+            return matches;
         }
 
         //Denna står kvar eftersom den inte gör något med arrayer.
         // Villkoret för SearchByProperties: varje kriterium är antingen null (bryr oss inte) eller måste stämma
         private static bool MatchesProperties(IVehicle vehicle, string? color, int? wheels, string? brand, string? type)
         {
+
             return (color is null || vehicle.Color.Equals(color, StringComparison.OrdinalIgnoreCase))
                 && (wheels is null || vehicle.Wheels == wheels)
                 && (brand is null || vehicle.Brand.Equals(brand, StringComparison.OrdinalIgnoreCase))

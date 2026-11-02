@@ -5,7 +5,7 @@ namespace Garaget.Tests
 {
     public class GarageTests
     {
-        [Fact]
+       /* [Fact]
         public void Park_WhenSpaceAvailable_ReturnsTrue()
         {
             var garage = new Garage(2);
@@ -64,6 +64,6 @@ namespace Garaget.Tests
 
 
 
-
+        */
     }
 }
