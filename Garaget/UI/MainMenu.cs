@@ -3,16 +3,13 @@ using Garaget.Vehicles;
 
 namespace Garaget.UI
 {
-    public class MainMenu
+    public class MainMenu : IMenuInterface
     {
-        private GarageHandler _handler;
+        private readonly IHandler _handler;
 
-        public MainMenu()
+        public MainMenu(IHandler handler)
         {
-            // Frågar användaren efter garagets storlek när programmet startar
-            _handler = new GarageHandler(ConsoleInput.ReadInt("Hur många platser ska garaget ha? ", 1, 1000));
-
-
+            _handler = handler;
         }
 
         public void Run()
@@ -138,7 +135,7 @@ namespace Garaget.UI
             ConsoleOutput.WriteHeader("Parkera fordon");
 
             // Kolla först, så användaren inte fyller i allt i onödan
-            if (_handler.Count >= _handler.Capacity)
+            if (_handler.isFull)
             {
                 ConsoleOutput.WriteError("Garaget är fullt.");
                 return;
@@ -332,7 +329,7 @@ namespace Garaget.UI
             ConsoleOutput.WriteWarning("Det nuvarande garaget och alla fordon i det försvinner.");
 
             int capacity = ConsoleInput.ReadInt("Antal platser i nya garaget: ", 1, 1000);
-            _handler = new GarageHandler(capacity);
+            _handler.CreateNewGarage(capacity);
 
             ConsoleOutput.WriteSuccess($"Nytt garage med {capacity} platser har skapats.");
         }

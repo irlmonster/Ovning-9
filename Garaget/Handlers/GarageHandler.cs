@@ -4,11 +4,19 @@ using Garaget.Vehicles;
 
 namespace Garaget.Handlers
 {
-    public class GarageHandler
+    public class GarageHandler : IHandler
     {
-        private readonly Garage<IVehicle> _garage;
+        private Garage<IVehicle> _garage;
+        public int Count => _garage.Count; // antal parkerade fordon, direkt från garaget
+        public int Capacity => _garage.Capacity; // totala antalet platser, direkt från garaget
+        public bool isFull => _garage.IsFull;
 
         public GarageHandler(int capacity)
+        {
+            CreateNewGarage(capacity);
+        }
+
+        public void CreateNewGarage(int capacity)
         {
             _garage = new Garage<IVehicle>(capacity);
         }
@@ -25,18 +33,13 @@ namespace Garaget.Handlers
 
         public List<IVehicle> GetAllVehicles()
         {
-            return _garage.ToList(); // Nu bytt ut detta mot ToList eftersom vi har IEnumerable på garaget
+            return _garage.ToList(); // Bytt ut detta mot ToList eftersom vi har IEnumerable på garaget
         }
 
         public IVehicle? FindByRegNumber(string regNumber)
         {
             return _garage.FindByRegNumber(RegNumberValidation.Normalize(regNumber)); // städar regnumret och skickar vidare till garaget
         }
-
-        public int Count => _garage.Count; // antal parkerade fordon, direkt från garaget
-
-        public int Capacity => _garage.Capacity; // totala antalet platser, direkt från garaget
-
 
 
         // Räknar hur många fordon det finns av en viss typ
@@ -47,7 +50,7 @@ namespace Garaget.Handlers
                            select v;
 
             return numQuery.Count();
-            
+
         }
 
         // Räknar hur många fordon det finns av varje typ i garaget.

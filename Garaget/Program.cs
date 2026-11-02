@@ -1,4 +1,5 @@
-﻿using Garaget.UI;
+﻿using Garaget.Handlers;
+using Garaget.UI;
 
 
 namespace Garaget
@@ -8,11 +9,14 @@ namespace Garaget
         static void Main(string[] args)
         {
 
+            int capacity = ConsoleInput.ReadInt("Hur många platser ska garaget ha? ", 1, 1000);
+            IHandler _handler = new GarageHandler(capacity);
+
             //Skapa ett menyobjekt och sen kör vi metoden Run 
-            var menu = new MainMenu();
+            IMenuInterface menu = new MainMenu(_handler);
             menu.Run();
 
-
+            
         }
     }
 }
