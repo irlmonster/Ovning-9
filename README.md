@@ -33,7 +33,7 @@ Alla fordon har registreringsnummer, färg, märke och antal hjul.
 ## Teknik och upplägg
 
 - **.NET 10 / C#**, **xUnit** för enhetstester
-- Garaget lagrar fordonen i en privat List<IVehicle>. Ingen LINQ, och inga egna generiska klasser (kommer i `version 3`)
+- Garaget lagrar fordonen i en privat List<IVehicle>. 
 - Abstrakt basklass `Vehicle` med gemensamma egenskaper, en subklass per fordonstyp
 - Fritextsökningen använder polymorfism: varje fordon har en egen `Matches`-metod som anropar basklassens och lägger till sina egna fält
 - Registreringsnummer valideras med regex (tre bokstäver, två siffror, en siffra eller bokstav) och normaliseras till versaler
@@ -44,22 +44,22 @@ Alla fordon har registreringsnummer, färg, märke och antal hjul.
 
 ```
 Garaget/
-├── Ovning_5_Garaget/
+├── Garaget/
 │   ├── Garages/        Garage, själva samlingen av fordon
 │   ├── Handlers/       GarageHandler och TypeCount
 │   ├── UI/             MainMenu, ConsoleInput, ConsoleOutput
 │   ├── Validation/     RegNumberValidation
 │   └── Vehicles/       IVehicle, Vehicle, subklasserna och enums
-└── Ovning_5_Garaget.Tests/
+└── Garaget.Tests/
                         Tester för garage, handler, fordon och validering
 ```
 
 ## Kom igång
 
 ```bash
-git clone https://github.com/irlmonster/GaragetV2.git
+git clone https://github.com/irlmonster/Ovning-9
 cd Garaget
-dotnet run --project Ovning_5_Garaget
+dotnet run --project Garaget
 ```
 
 Köra testerna:
