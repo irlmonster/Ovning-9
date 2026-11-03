@@ -126,5 +126,42 @@ namespace Garaget.Tests
             Assert.DoesNotContain(v1, vehicles);
             Assert.Contains(v2, vehicles);
         }
+
+        [Theory]
+        [InlineData("ABC123")]
+        [InlineData("abc123")]
+        [InlineData("aBc123")]
+        public void FindByRegNumber_AnyCase_ReturnsVehicle(string inputRegNumber)
+        {
+            var garage = new Garage<IVehicle>(5);
+            var v1 = new Car("ABC123", "Röd", 4, "Volvo", "Bensin", CarType.Kombi);
+
+            garage.Park(v1);
+            var foundVehicle = garage.FindByRegNumber(inputRegNumber);
+
+            Assert.Same(v1, foundVehicle);
+        }
+
+        [Fact]
+        public void FindByRegNumber_NotParked_ReturnsNull()
+        {
+            var garage = new Garage<IVehicle>(5);
+            var foundVehicle = garage.FindByRegNumber("XYZ789");
+            Assert.Null(foundVehicle);
+        }
+
+        [Fact]
+        public void FindByRegNumber_CarGarage_ReturnsCar()
+        {
+            var garage = new Garage<Car>(5);
+            var v1 = new Car("ABC123", "Röd", 4, "Volvo", "Bensin", CarType.Kombi);
+
+            garage.Park(v1);
+            var foundVehicle = garage.FindByRegNumber("ABC123");
+
+            Assert.NotNull(foundVehicle);
+            Assert.Equal("Bensin", foundVehicle.FuelType); 
+            Assert.Same(v1, foundVehicle);
+        }
     }
 }
