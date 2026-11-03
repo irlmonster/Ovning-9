@@ -9,11 +9,11 @@ namespace Garaget.Handlers
         private Garage<IVehicle> _garage;
         public int Count => _garage.Count; // antal parkerade fordon, direkt från garaget
         public int Capacity => _garage.Capacity; // totala antalet platser, direkt från garaget
-        public bool isFull => _garage.IsFull;
+        public bool IsFull => _garage.IsFull;
 
         public GarageHandler(int capacity)
         {
-            CreateNewGarage(capacity);
+            _garage = new Garage<IVehicle>(capacity);
         }
 
         public void CreateNewGarage(int capacity)
@@ -41,18 +41,6 @@ namespace Garaget.Handlers
             return _garage.FindByRegNumber(RegNumberValidation.Normalize(regNumber)); // städar regnumret och skickar vidare till garaget
         }
 
-
-        // Räknar hur många fordon det finns av en viss typ
-        public int CountByType(string typeName)
-        {
-            var numQuery = from v in _garage
-                           where v.GetType().Name.Equals(typeName)
-                           select v;
-
-            return numQuery.Count();
-
-        }
-
         // Räknar hur många fordon det finns av varje typ i garaget.
         // Returnerar tex. car: 3, motorcycle: 2, bus: 1
         public List<TypeCount> GetTypeCounts()
@@ -75,9 +63,7 @@ namespace Garaget.Handlers
         {
 
             var term = searchTerm.Trim();
-            var vehicles = GetAllVehicles();
-
-            var searchResults = vehicles.Where(v => v.Matches(term)).ToList();
+            var searchResults = _garage.Where(v => v.Matches(term)).ToList();
 
             return searchResults;
         }
@@ -85,8 +71,8 @@ namespace Garaget.Handlers
         // Sök på en eller flera egenskaper. Null betyder att egenskapen inte används i sökningen.
         public List<IVehicle> SearchByProperties(string? color = null, int? wheels = null, string? brand = null, string? type = null)
         {
-            var vehicles = GetAllVehicles();
-            var matches = vehicles.Where(v => MatchesProperties(v, color, wheels, brand, type)).ToList();
+            
+            var matches = _garage.Where(v => MatchesProperties(v, color, wheels, brand, type)).ToList();
 
             return matches;
         }

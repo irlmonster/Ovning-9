@@ -135,7 +135,7 @@ namespace Garaget.UI
             ConsoleOutput.WriteHeader("Parkera fordon");
 
             // Kolla först, så användaren inte fyller i allt i onödan
-            if (_handler.isFull)
+            if (_handler.IsFull)
             {
                 ConsoleOutput.WriteError("Garaget är fullt.");
                 return;

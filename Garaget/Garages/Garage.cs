@@ -27,21 +27,21 @@ namespace Garaget.Garages
         {
             if (IsFull) return false;
 
-            foreach (var v in _vehicles)
+
+            // regnumret finns redan
+            if (FindByRegNumber(vehicle.RegNumber) is not null)
             {
-                // jämför regnumren som strängar, oavsett stor/liten bokstav
-                if (v.RegNumber.Equals(vehicle.RegNumber, StringComparison.OrdinalIgnoreCase))
-                    return false; // regnumret finns redan
+                return false;
             }
 
-            _vehicles.Add(vehicle); // lägger fordonet sist i listan
+            _vehicles.Add(vehicle);
             return true;
         }
 
         // Remove
         public bool Remove(string regNumber)
         {
-            var vehicle = _vehicles.FirstOrDefault(v => v.RegNumber.Equals(regNumber, StringComparison.OrdinalIgnoreCase)); // FirstOrDefault returnerar null om inget matchar
+            var vehicle = FindByRegNumber(regNumber);
             return vehicle is not null && _vehicles.Remove(vehicle);
         }
 
@@ -49,12 +49,8 @@ namespace Garaget.Garages
         // Find regnumber
         public T? FindByRegNumber(string regNumber)
         {
-            foreach (var v in _vehicles)
-            {
-                if (v.RegNumber.Equals(regNumber, StringComparison.OrdinalIgnoreCase))
-                    return v; // hittade fordonet
-            }
-            return null; // inget fordon med det regnumret
+            var result = _vehicles.FirstOrDefault(v => v.RegNumber.Equals(regNumber, StringComparison.OrdinalIgnoreCase));
+            return result;
         }
 
 

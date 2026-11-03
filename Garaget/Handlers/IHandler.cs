@@ -6,7 +6,7 @@ namespace Garaget.Handlers
     {
         int Capacity { get; }
         int Count { get; }
-        bool isFull { get; }
+        bool IsFull { get; }
 
         void CreateNewGarage(int capacity);
         IVehicle? FindByRegNumber(string regNumber);
