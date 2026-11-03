@@ -1,0 +1,8655 @@
+{
+  "Capacity": 1000,
+  "Vehicles": [
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "NOW764",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 1,
+      "RegNumber": "JWJ893",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "VZG54H",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "EIE09D",
+      "Color": "Svart",
+      "Wheels": 18,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "SJO153",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 3,
+      "RegNumber": "QRP56F",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "IAC29B",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "YYF607",
+      "Color": "Brun",
+      "Wheels": 8,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "SNU62F",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 3,
+      "RegNumber": "KVD20V",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "YRB58F",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "YMQ008",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "GQL795",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 0,
+      "RegNumber": "IRE362",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "ZHW20T",
+      "Color": "Orange",
+      "Wheels": 10,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 2,
+      "RegNumber": "HDO15J",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "NPP313",
+      "Color": "Orange",
+      "Wheels": 10,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "TQX17E",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "IAJ92T",
+      "Color": "Lila",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "RPL429",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 0,
+      "RegNumber": "GWH73Y",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "WZM49J",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "QSK122",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 2,
+      "RegNumber": "XEN83J",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 3,
+      "RegNumber": "WMU10V",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 2,
+      "RegNumber": "RBT08P",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 2,
+      "RegNumber": "NDY81G",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 1,
+      "RegNumber": "KZB37W",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "NSV23K",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "TVH63J",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 4,
+      "RegNumber": "IOI85A",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "OLS381",
+      "Color": "Beige",
+      "Wheels": 10,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "JGM61G",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 3,
+      "RegNumber": "LSJ89S",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "SVY95D",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "JYZ29W",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 0,
+      "RegNumber": "IVY92I",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "BSL93I",
+      "Color": "Blå",
+      "Wheels": 8,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "NFG168",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "FIP37V",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "YHV92Z",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "AIR153",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "MUL13O",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "RKT28E",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 0,
+      "RegNumber": "NDE05C",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "REM58X",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "SXX190",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "NIB88X",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "LDV478",
+      "Color": "Brun",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "IGD58F",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "BZK31I",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "GSG29V",
+      "Color": "Svart",
+      "Wheels": 3,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "EER32L",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "ALZ30U",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "EXN67H",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 1,
+      "RegNumber": "YLQ75G",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "XZV66T",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "MNV135",
+      "Color": "Beige",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "KTE08I",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 4,
+      "RegNumber": "WKM767",
+      "Color": "Grå",
+      "Wheels": 3,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 3,
+      "RegNumber": "DZW149",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "NKO510",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 0,
+      "RegNumber": "KVI47J",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "CND95X",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "RRK85H",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "BJT39W",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "GEV61O",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "DYI73O",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "VUR03R",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "YJK44A",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "MCE94B",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "MNO43K",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 0,
+      "RegNumber": "TCB19K",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "VNP772",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 4,
+      "RegNumber": "DLN14S",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "VJB28Z",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "GJG98I",
+      "Color": "Grå",
+      "Wheels": 8,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "APX55L",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "WHQ71W",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "AOC401",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "DMA41K",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 4,
+      "RegNumber": "WLC55G",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "CMJ95V",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "QUD676",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "XUE30G",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "TEY97E",
+      "Color": "Svart",
+      "Wheels": 10,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "YSO87U",
+      "Color": "Brun",
+      "Wheels": 3,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "CPO80T",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 2,
+      "RegNumber": "QCJ592",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "UCT766",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "ZXB57M",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "ODZ43F",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "HWO567",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 0,
+      "RegNumber": "LJM52V",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "KDR86Y",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "KCS84J",
+      "Color": "Silver",
+      "Wheels": 10,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "TWC399",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 3,
+      "RegNumber": "VWX877",
+      "Color": "Blå",
+      "Wheels": 3,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "ALJ23N",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "EEC37G",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "XQB84V",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "FFW98K",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "LVX302",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "RHJ60M",
+      "Color": "Silver",
+      "Wheels": 18,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 3,
+      "RegNumber": "OYJ99Y",
+      "Color": "Orange",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "ZTE32D",
+      "Color": "Brun",
+      "Wheels": 6,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "DWQ15S",
+      "Color": "Blå",
+      "Wheels": 6,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "QEN11O",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "BMQ47P",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "AKD91V",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "WEY904",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "CAI27J",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "NDY36P",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "NUZ793",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "RAU65P",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "ATL300",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "LCQ696",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 0,
+      "RegNumber": "PBU49X",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "LHX84G",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "BLR43L",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 1,
+      "RegNumber": "FZE083",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "BKJ65Z",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "YUG36W",
+      "Color": "Röd",
+      "Wheels": 8,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "ZLN512",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 3,
+      "RegNumber": "WPL66R",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "TFR37U",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "JJO771",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "OBX451",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "UML65K",
+      "Color": "Röd",
+      "Wheels": 18,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 2,
+      "RegNumber": "ZOB16E",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "SBT192",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "YCS177",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "UIH14B",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "QMR15Q",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "TJW62M",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "WOC87U",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "CRR37T",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "QHD25I",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "RSL599",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "JMW924",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "NSC16U",
+      "Color": "Brun",
+      "Wheels": 10,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "VQL169",
+      "Color": "Brun",
+      "Wheels": 3,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "ENQ07H",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "FKW28W",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "GUR35I",
+      "Color": "Brun",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "UFS74J",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 4,
+      "RegNumber": "TKS05B",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "YSN79B",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "UJP31Z",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "BFO534",
+      "Color": "Gul",
+      "Wheels": 8,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "EKW40W",
+      "Color": "Grön",
+      "Wheels": 8,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "RDK303",
+      "Color": "Blå",
+      "Wheels": 10,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 1,
+      "RegNumber": "EDB37Y",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 3,
+      "RegNumber": "SXK24K",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 1,
+      "RegNumber": "PAC506",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 0,
+      "RegNumber": "BBJ634",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "EIX46Z",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "SRG469",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "OYR35H",
+      "Color": "Svart",
+      "Wheels": 10,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "ZKR46J",
+      "Color": "Vit",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 1,
+      "RegNumber": "BEW424",
+      "Color": "Orange",
+      "Wheels": 3,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "EKT40K",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 2,
+      "RegNumber": "KQQ685",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "LKV140",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "PIU99O",
+      "Color": "Beige",
+      "Wheels": 18,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "FQU92Y",
+      "Color": "Svart",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "WDG022",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "WGN644",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "EQG71U",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "KFO68V",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "PGH359",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 2,
+      "RegNumber": "JWG885",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 2,
+      "RegNumber": "JDS868",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "BJW10W",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "PGG68R",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "TXS30P",
+      "Color": "Röd",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "DNK914",
+      "Color": "Blå",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "FNU604",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 1,
+      "RegNumber": "JUB98F",
+      "Color": "Brun",
+      "Wheels": 3,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "FNF04Z",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "AJS77G",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "RQP176",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "KFX58Q",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "KZJ72M",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "QKC51G",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 2,
+      "RegNumber": "HAI49P",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "XSA33X",
+      "Color": "Beige",
+      "Wheels": 3,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "DOJ20Z",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "YJW15S",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "HEP193",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "WRP968",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "YTZ107",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "SDB706",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 4,
+      "RegNumber": "FKQ56H",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 3,
+      "RegNumber": "QOZ073",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 3,
+      "RegNumber": "BRO86T",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "XGS09C",
+      "Color": "Grön",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "BCP04S",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "XUN47Y",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "VVR17W",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "QEX28A",
+      "Color": "Röd",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "VXR548",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "LEI24H",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "YAH26E",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "TVW06P",
+      "Color": "Beige",
+      "Wheels": 10,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "HRG96D",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "XSK73U",
+      "Color": "Vit",
+      "Wheels": 3,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "QHN38R",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "FUV549",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "UVM67U",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "JMF968",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 3,
+      "RegNumber": "WEZ59D",
+      "Color": "Orange",
+      "Wheels": 3,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "EMH32N",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "LCR92M",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 4,
+      "RegNumber": "TTB09M",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "GKJ01N",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 4,
+      "RegNumber": "YPH89N",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 2,
+      "RegNumber": "MOR83W",
+      "Color": "Grå",
+      "Wheels": 3,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "ODZ924",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "KNB72O",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "SSX53S",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 2,
+      "RegNumber": "MSH639",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "XUX623",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "EXR62L",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "BCV06A",
+      "Color": "Grön",
+      "Wheels": 3,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "WEA276",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 4,
+      "RegNumber": "UVT615",
+      "Color": "Röd",
+      "Wheels": 3,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "AAQ92R",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "WVN22G",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 3,
+      "RegNumber": "HGT67Q",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "MOS31O",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "UYB11Z",
+      "Color": "Grön",
+      "Wheels": 18,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 3,
+      "RegNumber": "BUA89K",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "DQB29N",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "BCV358",
+      "Color": "Lila",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "AGS18Z",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "HSM868",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 3,
+      "RegNumber": "XCQ95W",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 2,
+      "RegNumber": "KTY78Z",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "HLR481",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "MCY79S",
+      "Color": "Vit",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "EMW81J",
+      "Color": "Beige",
+      "Wheels": 6,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 0,
+      "RegNumber": "DCA392",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 0,
+      "RegNumber": "FNO719",
+      "Color": "Orange",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "LRC76U",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "MYC929",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "VMF17R",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "CFN350",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "IHX805",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "DEJ00Z",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "OKN83I",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "GPK22Z",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "ZHK48R",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "GSR239",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "GOZ37E",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "UJH32J",
+      "Color": "Beige",
+      "Wheels": 10,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "OTP74Z",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 0,
+      "RegNumber": "BZL898",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "VVL21C",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "KZN13A",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "XQR74O",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "OYV756",
+      "Color": "Svart",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "DJN10H",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 3,
+      "RegNumber": "JKO267",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "XWO40E",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "KUD86K",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "FRF429",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 4,
+      "RegNumber": "UFF811",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "SNM00N",
+      "Color": "Vit",
+      "Wheels": 3,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 3,
+      "RegNumber": "DZR23X",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "VPQ81U",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "SDL453",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "SCV17U",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "FLW186",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "SMN235",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "FPJ17L",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 4,
+      "RegNumber": "LAP17M",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "VPN902",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "AZY28S",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 0,
+      "RegNumber": "JFY585",
+      "Color": "Orange",
+      "Wheels": 3,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "IYR468",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "GND94P",
+      "Color": "Grå",
+      "Wheels": 10,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "LCO15P",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 1,
+      "RegNumber": "LWT801",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "ZBS448",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "KWJ37R",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "YZN07R",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 4,
+      "RegNumber": "EWK31Z",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "MOC81F",
+      "Color": "Grön",
+      "Wheels": 6,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "LOP41A",
+      "Color": "Beige",
+      "Wheels": 10,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 3,
+      "RegNumber": "VWL088",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "IKJ439",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 3,
+      "RegNumber": "ZKV97D",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 1,
+      "RegNumber": "FOO001",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "ICU46Q",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "MUJ92O",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "DAG61E",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "VOA01V",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "CHM11G",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 1,
+      "RegNumber": "EMY96I",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "SAT83K",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 0,
+      "RegNumber": "XEN782",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "SXM441",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "UCH70S",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "QTQ24Z",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "PMD305",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "QAL40I",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "RVF974",
+      "Color": "Blå",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "IGB07Z",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "NWM108",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 2,
+      "RegNumber": "CJC65N",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 3,
+      "RegNumber": "UYU87E",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 0,
+      "RegNumber": "HCN143",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "DAW17A",
+      "Color": "Svart",
+      "Wheels": 8,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "QZX33K",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "DYA421",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 4,
+      "RegNumber": "IWS80E",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "PSF47K",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "VXD296",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "BPL49J",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 2,
+      "RegNumber": "XUN28U",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "SLD64D",
+      "Color": "Svart",
+      "Wheels": 18,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "MCO36T",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "OAL25S",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 1,
+      "RegNumber": "OLS63M",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "NAH69W",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "AYV48T",
+      "Color": "Blå",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 1,
+      "RegNumber": "PBE91R",
+      "Color": "Blå",
+      "Wheels": 3,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "WLO95F",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "EUM09D",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "JIK50U",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "CGE99G",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "OKN158",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "JOI15F",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "WTB27U",
+      "Color": "Svart",
+      "Wheels": 3,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "MQB86T",
+      "Color": "Grå",
+      "Wheels": 3,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "ORX70P",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 3,
+      "RegNumber": "DAB99O",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "SSI09B",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "CZK15C",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "NXM63B",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "LGF35R",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "TTH82S",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "BCI49I",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 3,
+      "RegNumber": "UZR02Y",
+      "Color": "Beige",
+      "Wheels": 3,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "LSQ41Y",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "HAZ99R",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "YSH20G",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "RZX07O",
+      "Color": "Lila",
+      "Wheels": 8,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "FHS40W",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "WLS72J",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "JFP04F",
+      "Color": "Röd",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "QPA42M",
+      "Color": "Svart",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "BAE75J",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "LWV50G",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "FXN815",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "RWT45O",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "FMJ93S",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "AWS50C",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "HUS135",
+      "Color": "Svart",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "LKF81F",
+      "Color": "Beige",
+      "Wheels": 6,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "AIG31E",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "ABM560",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "LRM124",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 2,
+      "RegNumber": "OCZ04S",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "KFM20E",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "TTP90B",
+      "Color": "Grön",
+      "Wheels": 3,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "NFB12V",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "RXX69Q",
+      "Color": "Brun",
+      "Wheels": 6,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "DBM739",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "ANC374",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "FUJ104",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "MPP84Q",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "FLM47L",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "OIH34D",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "VLZ690",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "BMQ538",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "HPJ10Z",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "QZS86J",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "GZG16C",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "NGU18Q",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "MRM70U",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "ZWT757",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "ESS74G",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "RLN33Y",
+      "Color": "Brun",
+      "Wheels": 18,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "PBF35Z",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "WMB50V",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "PIL02V",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "WVD29I",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "IXN77F",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "XPY66X",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "JWQ51I",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "FGG07P",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "WGI473",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "AHL622",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 3,
+      "RegNumber": "LLF33F",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "SYG28O",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "NQA99A",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 2,
+      "RegNumber": "ZAH32T",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "LOI273",
+      "Color": "Grå",
+      "Wheels": 18,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "TMS13A",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "UTT36T",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "KIU41R",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "EQY30D",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "EXA835",
+      "Color": "Grå",
+      "Wheels": 10,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "MXB74M",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "RUZ60W",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 2,
+      "RegNumber": "RFJ124",
+      "Color": "Svart",
+      "Wheels": 3,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "VKU11O",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 3,
+      "RegNumber": "ZKL33S",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "STC60M",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "JNB19I",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "OEK91L",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "UFK81D",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 1,
+      "RegNumber": "YYF73K",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "UNM544",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "GXL01U",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "AUX31O",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 0,
+      "RegNumber": "DMQ75T",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "OXQ767",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "PLY24K",
+      "Color": "Grön",
+      "Wheels": 3,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "XEG93B",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "LWU04Y",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 0,
+      "RegNumber": "RTB76D",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "NOM159",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 0,
+      "RegNumber": "EGW87A",
+      "Color": "Grå",
+      "Wheels": 3,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 4,
+      "RegNumber": "TTW170",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "DZD63M",
+      "Color": "Lila",
+      "Wheels": 8,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 4,
+      "RegNumber": "GLW52S",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 0,
+      "RegNumber": "WPK30A",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "VPE116",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "UHO37Q",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "BJL86U",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 3,
+      "RegNumber": "YBA17K",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "XCL43L",
+      "Color": "Blå",
+      "Wheels": 10,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "IMW610",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "FDN754",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "TMY45B",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "PDN56C",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "KAW867",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "VKQ66G",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "LVV82Y",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "AUF644",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "HKI066",
+      "Color": "Vit",
+      "Wheels": 10,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 3,
+      "RegNumber": "COO732",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 0,
+      "RegNumber": "PXU02G",
+      "Color": "Grön",
+      "Wheels": 3,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "ACZ77T",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "UVO43X",
+      "Color": "Röd",
+      "Wheels": 10,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "RYT764",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "ODD97O",
+      "Color": "Röd",
+      "Wheels": 8,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "ZJR66X",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "PEW950",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "GDM273",
+      "Color": "Vit",
+      "Wheels": 6,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "YNB81H",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 4,
+      "RegNumber": "EPA67D",
+      "Color": "Orange",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "YFW74L",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "VTT416",
+      "Color": "Grön",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "MKJ57I",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "XQJ899",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "GGG79S",
+      "Color": "Brun",
+      "Wheels": 3,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 2,
+      "RegNumber": "UFQ69U",
+      "Color": "Beige",
+      "Wheels": 3,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "SSV900",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 1,
+      "RegNumber": "NZA66G",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "GIY20S",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "WZJ268",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 4,
+      "RegNumber": "TVX71O",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "QZZ89S",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "MNZ87U",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "IGT992",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "RXT25M",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "CFF946",
+      "Color": "Blå",
+      "Wheels": 3,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "IRI16K",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "OWE05J",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 2,
+      "RegNumber": "TVJ629",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "FQC64K",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "CLH27V",
+      "Color": "Silver",
+      "Wheels": 8,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "YTQ609",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "VLO30P",
+      "Color": "Röd",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "ZDM328",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "QYL656",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "UGK65F",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "AUC26N",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "RWX991",
+      "Color": "Brun",
+      "Wheels": 3,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "OWK04F",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 3,
+      "RegNumber": "RCS29Q",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "KAM86H",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 0,
+      "RegNumber": "YXS05E",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "TCJ972",
+      "Color": "Grön",
+      "Wheels": 3,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "FRH17Z",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "EJV93X",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "DBA73Z",
+      "Color": "Orange",
+      "Wheels": 8,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 4,
+      "RegNumber": "XXX44N",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "FHT32M",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "YRO829",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "DGX745",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 3,
+      "RegNumber": "UHD36E",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "TVJ88J",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 3,
+      "RegNumber": "NFA40P",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "EVX424",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "PRD22F",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "IXU09E",
+      "Color": "Röd",
+      "Wheels": 3,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "SSM98N",
+      "Color": "Röd",
+      "Wheels": 10,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 2,
+      "RegNumber": "YEL50O",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "QQC50X",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "VFY65I",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "SVE944",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "HCI47O",
+      "Color": "Röd",
+      "Wheels": 8,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "POB05U",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "IXI748",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "MLS83E",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "QML445",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "QEO21O",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "EFF46H",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 4,
+      "RegNumber": "XDP864",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "AHB16K",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "SEB21Q",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 3,
+      "RegNumber": "SUA92S",
+      "Color": "Blå",
+      "Wheels": 3,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "PFH52J",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "QIF92V",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "HMM16G",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "VNE77G",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "TBZ686",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "VET69A",
+      "Color": "Brun",
+      "Wheels": 10,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "NLB897",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "LSZ94G",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "YHC368",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "WXZ007",
+      "Color": "Blå",
+      "Wheels": 3,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "UGW400",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "USI338",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "IVM96N",
+      "Color": "Grön",
+      "Wheels": 18,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "FLR714",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 1,
+      "RegNumber": "LYW50I",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "DGQ51V",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "UAZ11J",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "IHL10C",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "UQJ91D",
+      "Color": "Svart",
+      "Wheels": 10,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "AGV66S",
+      "Color": "Vit",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "FVB46P",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 1,
+      "RegNumber": "IYM45Z",
+      "Color": "Grön",
+      "Wheels": 3,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "XWC119",
+      "Color": "Grå",
+      "Wheels": 18,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "LLI28M",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "IFN64G",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "KDZ65Q",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "OMS61P",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "APD33E",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 4,
+      "RegNumber": "WHZ400",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "HJC51V",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "KLG73R",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "XGH94P",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "HTL19G",
+      "Color": "Blå",
+      "Wheels": 10,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 2,
+      "RegNumber": "AYR054",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "IPF976",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 4,
+      "RegNumber": "EBQ544",
+      "Color": "Orange",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "VYF58H",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "KWA01N",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "LTI239",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "TKL235",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "YLL51R",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "ESV29G",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "NMG18J",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "PEU668",
+      "Color": "Beige",
+      "Wheels": 10,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "IRS06Z",
+      "Color": "Blå",
+      "Wheels": 3,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "GIP80G",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "LLR71Q",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "DLV77M",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "URF99S",
+      "Color": "Silver",
+      "Wheels": 18,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 3,
+      "RegNumber": "YXO10Y",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "UZK53Z",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "HKK83S",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "MIO99X",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "NFF02I",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "WXC26K",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "PRB03Z",
+      "Color": "Orange",
+      "Wheels": 3,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "TEC83Y",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "XJO80I",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "BVL414",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "OEW69L",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "XUS557",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "LPR29F",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "IEJ01A",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "PRA885",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "NZJ76O",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "NRN50P",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "MHI101",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 4,
+      "RegNumber": "ZWV34S",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "GCF17S",
+      "Color": "Blå",
+      "Wheels": 10,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "WTP24U",
+      "Color": "Röd",
+      "Wheels": 3,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "FDJ34I",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "CEA63N",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "LOW04V",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 1,
+      "RegNumber": "IYM098",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "ADY91P",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "BGO94G",
+      "Color": "Orange",
+      "Wheels": 10,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 4,
+      "RegNumber": "VJK20C",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 1,
+      "RegNumber": "PUJ25X",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "UNK01K",
+      "Color": "Grå",
+      "Wheels": 10,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 1,
+      "RegNumber": "ABS884",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "HFP11V",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "UEW68G",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 1,
+      "RegNumber": "RZU96W",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "LXE32C",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "JRW62M",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "KXO359",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "OJI69X",
+      "Color": "Gul",
+      "Wheels": 18,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 2,
+      "RegNumber": "XFA79X",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "MGQ875",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "KNU41H",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "EFB25G",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "BSU495",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "SIB46O",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 2,
+      "RegNumber": "GUP103",
+      "Color": "Brun",
+      "Wheels": 3,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "LZW07R",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "CGQ12G",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "GGQ84P",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 2,
+      "RegNumber": "XRN95G",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 2,
+      "RegNumber": "DFZ239",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "TOL409",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "YUN92U",
+      "Color": "Lila",
+      "Wheels": 18,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "GMY70Q",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "AXB36B",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 4,
+      "RegNumber": "JHG40B",
+      "Color": "Beige",
+      "Wheels": 3,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 1,
+      "RegNumber": "SSE12C",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "LSH29Q",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 3,
+      "RegNumber": "MSG93E",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "WWS12T",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "CYB98V",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "YHX83A",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "JQB408",
+      "Color": "Lila",
+      "Wheels": 8,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 4,
+      "RegNumber": "WHE06Z",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "HNJ50J",
+      "Color": "Svart",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "SXB70Z",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "NYW16I",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 4,
+      "RegNumber": "MUS259",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "CIY55U",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "DVN54X",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "LTU03T",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 1,
+      "RegNumber": "ZOT182",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 1,
+      "RegNumber": "YXC14D",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "KWZ14T",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "KGX68N",
+      "Color": "Vit",
+      "Wheels": 10,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "XEW89B",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "IFB36M",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "OUA08Y",
+      "Color": "Brun",
+      "Wheels": 8,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 0,
+      "RegNumber": "AJU49O",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 4,
+      "RegNumber": "TRC23M",
+      "Color": "Orange",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "HQJ425",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "LVL45T",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "UIM039",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "MVE11Y",
+      "Color": "Orange",
+      "Wheels": 10,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "SEN39V",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 4,
+      "RegNumber": "UES69M",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 4,
+      "RegNumber": "YEU72K",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "FKE93B",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "JOX81R",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 4,
+      "RegNumber": "FAY78R",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "HHV03W",
+      "Color": "Blå",
+      "Wheels": 10,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "QTP91X",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "EFG28C",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "HXV25N",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "TPW413",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "TXM92U",
+      "Color": "Grön",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "OBH668",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "MQY80D",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 4,
+      "RegNumber": "JYJ59K",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "EOU57F",
+      "Color": "Beige",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "WRE500",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "OSW253",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "UWZ20H",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "LCQ90Y",
+      "Color": "Beige",
+      "Wheels": 18,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "MRM05K",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 2,
+      "RegNumber": "EFY91D",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "UFD16M",
+      "Color": "Röd",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "PPR005",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "PON56F",
+      "Color": "Lila",
+      "Wheels": 3,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 1,
+      "RegNumber": "RIT809",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 4,
+      "RegNumber": "ULB18C",
+      "Color": "Brun",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "CBD53L",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "VWW769",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "BCY38U",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "NRC374",
+      "Color": "Svart",
+      "Wheels": 8,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "QNQ26N",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "XUQ114",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "WJN77U",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "LET725",
+      "Color": "Orange",
+      "Wheels": 10,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "ZFT29S",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "AOU15N",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "KLR81N",
+      "Color": "Röd",
+      "Wheels": 3,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "JIZ08T",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "YAD87V",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "AFG42V",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "UEP193",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "XBQ38U",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "SVK45E",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "MUR21Y",
+      "Color": "Svart",
+      "Wheels": 8,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "KWB340",
+      "Color": "Blå",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "OJG67T",
+      "Color": "Svart",
+      "Wheels": 8,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "YGC566",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 1,
+      "RegNumber": "GKP937",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "VEG92C",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "AJB87F",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "QYV95T",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "GKG24S",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "VDI19K",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "RQD268",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "EWZ36P",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 0,
+      "RegNumber": "KRO06I",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "MBC54Z",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "UWW57W",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "YVZ68F",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 3,
+      "RegNumber": "ZWO123",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 2,
+      "RegNumber": "HET33X",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 3,
+      "RegNumber": "PAC60H",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "YLT73I",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "ZDK71E",
+      "Color": "Grå",
+      "Wheels": 10,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "NHT319",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "KGW751",
+      "Color": "Grön",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "VVC945",
+      "Color": "Blå",
+      "Wheels": 8,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "DOF39Z",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "TYM415",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 1,
+      "RegNumber": "GES96A",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "JMT732",
+      "Color": "Vit",
+      "Wheels": 8,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "SZV381",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "ATQ51I",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "RBA909",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "HNW75Z",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "MMM558",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 2,
+      "RegNumber": "EGR49X",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "ACU02J",
+      "Color": "Beige",
+      "Wheels": 10,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "CEU533",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "FOQ549",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "FNT005",
+      "Color": "Beige",
+      "Wheels": 18,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "NRS46C",
+      "Color": "Röd",
+      "Wheels": 8,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "SPW10J",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 0,
+      "RegNumber": "OQC66F",
+      "Color": "Vit",
+      "Wheels": 3,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 3,
+      "RegNumber": "JTB438",
+      "Color": "Röd",
+      "Wheels": 3,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 1,
+      "RegNumber": "SXK53W",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "WTX38Q",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "FSB84S",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "JPC166",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "TII32A",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "SXE842",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 1,
+      "RegNumber": "HPF67C",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 3,
+      "RegNumber": "PYN98Y",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "SXL06Q",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "MPJ608",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "WMP33J",
+      "Color": "Orange",
+      "Wheels": 3,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "ZOM86U",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "ULN78R",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "ZDI83Z",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "VSY247",
+      "Color": "Silver",
+      "Wheels": 8,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "AVA08A",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "VOL28S",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "TCB76N",
+      "Color": "Lila",
+      "Wheels": 3,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "DCT16Y",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "FDW23Q",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "CUO351",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 2,
+      "RegNumber": "FYC35D",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 3,
+      "RegNumber": "IFO085",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "DER981",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "DOW33G",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "XIY57B",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 4,
+      "RegNumber": "IEW42Z",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "NMX99E",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "WYP158",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "BUU11X",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 0,
+      "RegNumber": "YYJ82M",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "JWM13W",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 1,
+      "RegNumber": "GEB24B",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "CZR82T",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 1,
+      "RegNumber": "KBK92C",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "VQO868",
+      "Color": "Svart",
+      "Wheels": 18,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Boat",
+      "Length": 4.5,
+      "RegNumber": "CBX185",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "TBH89I",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "ZDO78K",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "PTZ78O",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "ZXV51U",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 2,
+      "RegNumber": "EKZ27C",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "DIE960",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "FOH74C",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 1,
+      "RegNumber": "YFA62F",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "JNW984",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 4,
+      "RegNumber": "UIQ570",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "FWP78F",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 4,
+      "RegNumber": "ARH24H",
+      "Color": "Orange",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 1,
+      "RegNumber": "QHO98N",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "VPP22K",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "LJG55Q",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "YOB13D",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "PQD09P",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "SKN25U",
+      "Color": "Vit",
+      "Wheels": 6,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "DHX52M",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Boat",
+      "Length": 7.5,
+      "RegNumber": "PSP061",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "OFM47I",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "LIG42I",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 2,
+      "RegNumber": "IED593",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "TFZ81K",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 0,
+      "RegNumber": "NQP274",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Yamaha"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "HKN74O",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "NBB606",
+      "Color": "Röd",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 1,
+      "RegNumber": "MPZ89G",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "YAW930",
+      "Color": "Vit",
+      "Wheels": 6,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "HUC024",
+      "Color": "Brun",
+      "Wheels": 6,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "OSX74B",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "MFZ473",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "CMW427",
+      "Color": "Röd",
+      "Wheels": 10,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "IWT69N",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "XBQ86X",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "OTB46X",
+      "Color": "Svart",
+      "Wheels": 18,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "CRW99N",
+      "Color": "Svart",
+      "Wheels": 3,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "DUP94N",
+      "Color": "Beige",
+      "Wheels": 6,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "IQV54R",
+      "Color": "Röd",
+      "Wheels": 8,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "OPQ67H",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "RJO79X",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "OCC50L",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "IDW185",
+      "Color": "Svart",
+      "Wheels": 18,
+      "Brand": "Piper"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 80,
+      "RegNumber": "AJN878",
+      "Color": "Svart",
+      "Wheels": 8,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "OXU02S",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "QUK52V",
+      "Color": "Brun",
+      "Wheels": 10,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "VWQ702",
+      "Color": "Gul",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "EZJ21Q",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 4,
+      "RegNumber": "YBE45S",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Triumph"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "JFF90J",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 1,
+      "RegNumber": "KSE56Q",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1000,
+      "Type": 1,
+      "RegNumber": "VKL18X",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "DAM63J",
+      "Color": "Gul",
+      "Wheels": 3,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "XRQ42S",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "EZS932",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "PBE869",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 125,
+      "Type": 4,
+      "RegNumber": "THO45F",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "QHZ98R",
+      "Color": "Vit",
+      "Wheels": 3,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "OVV116",
+      "Color": "Grön",
+      "Wheels": 10,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "TTQ07X",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "NLM47A",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 3,
+      "RegNumber": "ORC272",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "ZXN930",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "EGJ607",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "CAN81R",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "WSY17M",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "RPB38T",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 3,
+      "RegNumber": "AZA19Q",
+      "Color": "Grå",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 2,
+      "RegNumber": "NFP88P",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "TXL744",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "VPW15X",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "IFS07J",
+      "Color": "Silver",
+      "Wheels": 3,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "FBI460",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1250,
+      "Type": 1,
+      "RegNumber": "JQU096",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 2,
+      "RegNumber": "YFR41U",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 1,
+      "RegNumber": "WWL128",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "QJL995",
+      "Color": "Grön",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "GEQ28M",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 0,
+      "RegNumber": "WRW96H",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "APL39X",
+      "Color": "Svart",
+      "Wheels": 18,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "YKF90T",
+      "Color": "Röd",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "WEW29T",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "NWY14E",
+      "Color": "Röd",
+      "Wheels": 10,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "GDB846",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "IBC38A",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 1,
+      "RegNumber": "SGF85W",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "LLF64P",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "YAQ27M",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 4,
+      "RegNumber": "XDG644",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 45,
+      "RegNumber": "VDF45Y",
+      "Color": "Grön",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "DYK153",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "YLW369",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "PDM363",
+      "Color": "Lila",
+      "Wheels": 10,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 2,
+      "RegNumber": "RNJ54M",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "VPV13Z",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 0,
+      "RegNumber": "EMM88G",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "GKG76Z",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "PIY91R",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "VTM626",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "DIP63O",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "DXB085",
+      "Color": "Brun",
+      "Wheels": 3,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "TVK19T",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "YCV967",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "VPP64Q",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Boat",
+      "Length": 14.0,
+      "RegNumber": "AYB55H",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Boat",
+      "Length": 18.5,
+      "RegNumber": "MOO04C",
+      "Color": "Svart",
+      "Wheels": 0,
+      "Brand": "Yamarin"
+    },
+    {
+      "$type": "Boat",
+      "Length": 6.0,
+      "RegNumber": "YJW215",
+      "Color": "Grön",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "WMP97H",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "RVR734",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "IPS48W",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 0,
+      "RegNumber": "SBE46W",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "DNL450",
+      "Color": "Silver",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "HUJ75F",
+      "Color": "Beige",
+      "Wheels": 8,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "KFA68U",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "QNI024",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 1,
+      "RegNumber": "SMK73G",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "QZY85V",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "NGP81E",
+      "Color": "Orange",
+      "Wheels": 6,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "BJS51O",
+      "Color": "Lila",
+      "Wheels": 6,
+      "Brand": "Solaris"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 1,
+      "RegNumber": "KIC727",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "Husqvarna"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "UJQ381",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "NMI796",
+      "Color": "Gul",
+      "Wheels": 18,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 1,
+      "RegNumber": "AUW66L",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "URZ781",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "GLO18P",
+      "Color": "Svart",
+      "Wheels": 10,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "KCU260",
+      "Color": "Grå",
+      "Wheels": 6,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "VTH51P",
+      "Color": "Blå",
+      "Wheels": 3,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 3,
+      "RegNumber": "HZJ595",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "BGF34I",
+      "Color": "Röd",
+      "Wheels": 8,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "RFU055",
+      "Color": "Röd",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "TJC52X",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "XEH146",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "IPC30H",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "MZX95P",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "FGI560",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "PRL89H",
+      "Color": "Silver",
+      "Wheels": 10,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 2,
+      "RegNumber": "HIZ18X",
+      "Color": "Gul",
+      "Wheels": 2,
+      "Brand": "KTM"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "UTB94D",
+      "Color": "Beige",
+      "Wheels": 3,
+      "Brand": "Cessna"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "RMJ81X",
+      "Color": "Brun",
+      "Wheels": 18,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "HOM01Z",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "JGF56U",
+      "Color": "Brun",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 4,
+      "RegNumber": "BIC995",
+      "Color": "Gul",
+      "Wheels": 10,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "KWN12K",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "CLN779",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "AYB82L",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "MGU39U",
+      "Color": "Lila",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 3,
+      "RegNumber": "FHQ91I",
+      "Color": "Lila",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "OPX17Q",
+      "Color": "Svart",
+      "Wheels": 8,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "CNL23Z",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "ARU78O",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "WFB511",
+      "Color": "Lila",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "LFS15A",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 2,
+      "RegNumber": "VPD28N",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "ENG76N",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "FNZ18B",
+      "Color": "Grå",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "TOH473",
+      "Color": "Blå",
+      "Wheels": 10,
+      "Brand": "Airbus"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 800,
+      "Type": 3,
+      "RegNumber": "KWM87N",
+      "Color": "Beige",
+      "Wheels": 3,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 3,
+      "RegNumber": "CDR07D",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Suzuki"
+    },
+    {
+      "$type": "Boat",
+      "Length": 8.8,
+      "RegNumber": "VZT90C",
+      "Color": "Röd",
+      "Wheels": 0,
+      "Brand": "Linder"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 0,
+      "RegNumber": "TMJ50X",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 1,
+      "RegNumber": "FIF645",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "WQN18Q",
+      "Color": "Blå",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "PIX461",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 1,
+      "RegNumber": "QKN21U",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 390,
+      "Type": 0,
+      "RegNumber": "VUZ56D",
+      "Color": "Vit",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 250,
+      "Type": 3,
+      "RegNumber": "BPI203",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 35,
+      "RegNumber": "LWR623",
+      "Color": "Gul",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "LCG36L",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "SVS27A",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 2,
+      "RegNumber": "NCH985",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1200,
+      "Type": 0,
+      "RegNumber": "JVV15Z",
+      "Color": "Silver",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "ACO904",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "VAK052",
+      "Color": "Silver",
+      "Wheels": 0,
+      "Brand": "Buster"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 0,
+      "RegNumber": "GBZ82S",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 3,
+      "RegNumber": "TMC51Q",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "AGF49Z",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 1,
+      "RegNumber": "JPZ55T",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "VDL65M",
+      "Color": "Gul",
+      "Wheels": 10,
+      "Brand": "Embraer"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "IST54F",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Tesla"
+    },
+    {
+      "$type": "Boat",
+      "Length": 10.0,
+      "RegNumber": "NUN11C",
+      "Color": "Orange",
+      "Wheels": 0,
+      "Brand": "Bavaria"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 4,
+      "RegNumber": "VHU87J",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 1,
+      "RegNumber": "JON104",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "JHQ54S",
+      "Color": "Lila",
+      "Wheels": 18,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "BQD651",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 1,
+      "RegNumber": "XSI45Q",
+      "Color": "Lila",
+      "Wheels": 18,
+      "Brand": "Boeing"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "DXV59L",
+      "Color": "Svart",
+      "Wheels": 6,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "NWJ403",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Boat",
+      "Length": 24.0,
+      "RegNumber": "KZF27L",
+      "Color": "Blå",
+      "Wheels": 0,
+      "Brand": "Nimbus"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "VDN68B",
+      "Color": "Röd",
+      "Wheels": 0,
+      "Brand": "Flipper"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "AFU613",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Boat",
+      "Length": 12.5,
+      "RegNumber": "PJT78X",
+      "Color": "Beige",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Boat",
+      "Length": 5.2,
+      "RegNumber": "JCE17A",
+      "Color": "Vit",
+      "Wheels": 0,
+      "Brand": "Ryds"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "AWG03N",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 3,
+      "RegNumber": "HNU68M",
+      "Color": "Blå",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 1800,
+      "Type": 3,
+      "RegNumber": "NAD21J",
+      "Color": "Beige",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 3,
+      "RegNumber": "AOS31M",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "KAD801",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "XRJ045",
+      "Color": "Grön",
+      "Wheels": 18,
+      "Brand": "Bombardier"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "XTV62O",
+      "Color": "Beige",
+      "Wheels": 6,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "SKR08R",
+      "Color": "Brun",
+      "Wheels": 10,
+      "Brand": "Scania"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 60,
+      "RegNumber": "PTU442",
+      "Color": "Beige",
+      "Wheels": 6,
+      "Brand": "Volvo"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Diesel",
+      "Type": 4,
+      "RegNumber": "JXG60W",
+      "Color": "Gul",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 650,
+      "Type": 3,
+      "RegNumber": "SVK773",
+      "Color": "Svart",
+      "Wheels": 2,
+      "Brand": "Ducati"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 0,
+      "RegNumber": "ZPZ20N",
+      "Color": "Grå",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 900,
+      "Type": 0,
+      "RegNumber": "PEF25K",
+      "Color": "Lila",
+      "Wheels": 2,
+      "Brand": "Harley-Davidson"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 690,
+      "Type": 2,
+      "RegNumber": "JHG71D",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Honda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "FQB08V",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 0,
+      "RegNumber": "DRH62Q",
+      "Color": "Silver",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "IEW65G",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Audi"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 4,
+      "RegNumber": "YDD78G",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "FUD26X",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Skoda"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 2,
+      "RegNumber": "OYQ63G",
+      "Color": "Svart",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 3,
+      "RegNumber": "EDG560",
+      "Color": "Röd",
+      "Wheels": 2,
+      "Brand": "Kawasaki"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 2,
+      "RegNumber": "QFC34X",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Peugeot"
+    },
+    {
+      "$type": "Motorcycle",
+      "CylinderVolume": 500,
+      "Type": 1,
+      "RegNumber": "VHE967",
+      "Color": "Grön",
+      "Wheels": 2,
+      "Brand": "BMW"
+    },
+    {
+      "$type": "Airplane",
+      "NumberOfEngines": 2,
+      "RegNumber": "NOQ87X",
+      "Color": "Röd",
+      "Wheels": 3,
+      "Brand": "Saab"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 55,
+      "RegNumber": "AWZ66E",
+      "Color": "Blå",
+      "Wheels": 8,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "YFN07Z",
+      "Color": "Röd",
+      "Wheels": 6,
+      "Brand": "Setra"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Hybrid",
+      "Type": 4,
+      "RegNumber": "WZV66S",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 40,
+      "RegNumber": "XXK44A",
+      "Color": "Grå",
+      "Wheels": 10,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 3,
+      "RegNumber": "UGR792",
+      "Color": "Beige",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 1,
+      "RegNumber": "JCB68V",
+      "Color": "Grön",
+      "Wheels": 4,
+      "Brand": "Kia"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "El",
+      "Type": 4,
+      "RegNumber": "RJG116",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Volkswagen"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Etanol",
+      "Type": 2,
+      "RegNumber": "YUF02B",
+      "Color": "Orange",
+      "Wheels": 4,
+      "Brand": "Ford"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 20,
+      "RegNumber": "YJX546",
+      "Color": "Blå",
+      "Wheels": 8,
+      "Brand": "MAN"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Bensin",
+      "Type": 3,
+      "RegNumber": "UQL15D",
+      "Color": "Brun",
+      "Wheels": 4,
+      "Brand": "Toyota"
+    },
+    {
+      "$type": "Car",
+      "FuelType": "Gas",
+      "Type": 4,
+      "RegNumber": "SXA58V",
+      "Color": "Vit",
+      "Wheels": 4,
+      "Brand": "Mercedes"
+    },
+    {
+      "$type": "Bus",
+      "NumberOfSeats": 50,
+      "RegNumber": "WUV68O",
+      "Color": "Silver",
+      "Wheels": 8,
+      "Brand": "Setra"
+    }
+  ]
+}

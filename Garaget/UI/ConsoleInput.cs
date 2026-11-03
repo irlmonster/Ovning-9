@@ -8,17 +8,62 @@ namespace Garaget.UI
     // Varje metod frågar igen tills svaret är giltigt, så programmet aldrig kraschar på dålig input.
     public static class ConsoleInput
     {
+
+
+        // Läser en rad tangent för tangent, så att Esc kan avbryta.
+        public static string ReadLineOrCancel()
+        {
+            string text = "";
+
+            while (true)
+            {
+                // true = tangenten skrivs inte ut automatiskt, vi bestämmer själva vad som syns
+                ConsoleKeyInfo key = Console.ReadKey(true);
+
+                if (key.Key == ConsoleKey.Escape)
+                {
+                    Console.WriteLine();
+                    throw new UserCancelledException();
+                }
+
+                if (key.Key == ConsoleKey.Enter)
+                {
+                    Console.WriteLine();
+                    return text;
+                }
+
+                if (key.Key == ConsoleKey.Backspace)
+                {
+                    if (text.Length > 0)
+                    {
+                        text = text[..^1];       // ta bort sista tecknet ur texten
+                        Console.Write("\b \b");  // backa, skriv över med mellanslag, backa igen
+                    }
+                    continue;                    // hoppa till nästa varv i loopen
+                }
+
+                // Piltangenter, F-tangenter och liknande ger inget tecken och ignoreras
+                if (key.KeyChar != '\0')
+                {
+                    text += key.KeyChar;
+                    Console.Write(key.KeyChar);
+                }
+            }
+        }
+
+
+
         // Läser ett regnummer och returnerar det i normaliserat format (t.ex. "ABC123")
         public static string ReadRegNumber(string prompt)
         {
             while (true)
             {
                 Console.Write(prompt);
-                string? input = Console.ReadLine();
+                string input = ReadLineOrCancel();
 
                 if (RegNumberValidation.IsValid(input))
                 {
-                    return RegNumberValidation.Normalize(input!); // här litar vi på att det inte är null eftersom vi kollat det tidigare
+                    return RegNumberValidation.Normalize(input); // här litar vi på att det inte är null eftersom vi kollat det tidigare
                 }
 
                 ConsoleOutput.WriteError("Ogiltigt regnummer. Formatet är tre bokstäver, två siffror och en siffra eller bokstav (tex. ABC123).");
@@ -31,7 +76,7 @@ namespace Garaget.UI
             while (true)
             {
                 Console.Write(prompt);
-                string? input = Console.ReadLine();
+                string input = ReadLineOrCancel();
 
                 if (int.TryParse(input, out int value) && value >= min && value <= max)
                 {
@@ -49,7 +94,7 @@ namespace Garaget.UI
             while (true)
             {
                 Console.Write(prompt);
-                string? input = Console.ReadLine();
+                string input = ReadLineOrCancel();
 
                 if (!string.IsNullOrWhiteSpace(input))
                 {
@@ -63,10 +108,10 @@ namespace Garaget.UI
 
 
         // Läser en valfri sträng. Tomt svar ger null, vilket betyder "hoppa över"
-        public static string? ReadOptionalString(string prompt)
+        public static string ReadOptionalString(string prompt)
         {
             Console.Write(prompt);
-            string? input = Console.ReadLine();
+            string input = ReadLineOrCancel();
 
             return string.IsNullOrWhiteSpace(input) ? null : input.Trim(); // ifsats på en rad "är den tom? I så fall null, annars den trimmade strängen."
         }
@@ -81,7 +126,7 @@ namespace Garaget.UI
             while (true)
             {
                 Console.Write(prompt);
-                string? input = Console.ReadLine();
+                string input = ReadLineOrCancel();
 
                 if (string.IsNullOrWhiteSpace(input))
                 {
@@ -106,7 +151,7 @@ namespace Garaget.UI
             while (true)
             {
                 Console.Write(prompt);
-                string? input = Console.ReadLine();
+                string input = ReadLineOrCancel();
 
                 if (input is not null
                     && double.TryParse(input.Replace(',', '.'), NumberStyles.Float, CultureInfo.InvariantCulture, out double value)
@@ -138,6 +183,7 @@ namespace Garaget.UI
         }
 
 
+        
 
 
         // Samma sak för motorcykeltyper

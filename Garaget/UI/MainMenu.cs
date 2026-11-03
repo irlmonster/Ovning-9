@@ -32,67 +32,79 @@ namespace Garaget.UI
                 Console.WriteLine("8. Skapa nytt garage");
                 Console.WriteLine("9. Spara eller ladda från fil");
                 Console.WriteLine("0. Avsluta");
+                ConsoleOutput.WriteDarkGray("Tryck Esc för att avbryta.");
                 Console.WriteLine();
                 Console.Write("Välj (0-9): ");
+                Console.WriteLine();
+
 
                 string input = Console.ReadLine() ?? "";
                 Console.WriteLine();
 
-                switch (input)
+                try
                 {
-                    case "1":
-                        ListAllVehicles();
-                        ConsoleOutput.Pause();
-                        break;
 
-                    case "2":
-                        ListVehicleTypes();
-                        ConsoleOutput.Pause();
-                        break;
+                    switch (input)
+                    {
+                        case "1":
+                            ListAllVehicles();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    case "3":
-                        ParkVehicle();
-                        ConsoleOutput.Pause();
-                        break;
+                        case "2":
+                            ListVehicleTypes();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    case "4":
-                        RemoveVehicle();
-                        ConsoleOutput.Pause();
-                        break;
+                        case "3":
+                            ParkVehicle();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    case "5":
-                        FindVehicle();
-                        ConsoleOutput.Pause();
-                        break;
+                        case "4":
+                            RemoveVehicle();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    case "6":
-                        SearchVehicles();
-                        ConsoleOutput.Pause();
-                        break;
+                        case "5":
+                            FindVehicle();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    case "7":
-                        PopulateGarage();
-                        ConsoleOutput.Pause();
-                        break;
+                        case "6":
+                            SearchVehicles();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    case "8":
-                        CreateNewGarage();
-                        ConsoleOutput.Pause();
-                        break;
-                    case "9":
-                        await FileMenuAsync();
-                        ConsoleOutput.Pause();
-                        break;
+                        case "7":
+                            PopulateGarage();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    case "0":
-                        isRunning = false;
-                        ConsoleOutput.WriteSuccess("Hej då!");
-                        break;
+                        case "8":
+                            CreateNewGarage();
+                            ConsoleOutput.Pause();
+                            break;
+                        case "9":
+                            await FileMenuAsync();
+                            ConsoleOutput.Pause();
+                            break;
 
-                    default:
-                        ConsoleOutput.WriteError("Ogiltigt val, försök igen.");
-                        ConsoleOutput.Pause();
-                        break;
+                        case "0":
+                            isRunning = false;
+                            ConsoleOutput.WriteSuccess("Hej då!");
+                            break;
+
+                        default:
+                            ConsoleOutput.WriteError("Ogiltigt val, försök igen.");
+                            ConsoleOutput.Pause();
+                            break;
+                    }
+                }
+                catch (UserCancelledException)
+                {
+                    ConsoleOutput.WriteWarning("Avbrutet.");
+                    ConsoleOutput.Pause();
                 }
             }
         }

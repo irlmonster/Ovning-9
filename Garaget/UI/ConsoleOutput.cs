@@ -15,6 +15,8 @@
         // Cyan text för rubriker
         public static void WriteHeader(string message) => WriteInColor(message, ConsoleColor.Cyan);
 
+        // DarkGray text för simpelare meddelande eller info
+        public static void WriteDarkGray(string message) => WriteInColor(message, ConsoleColor.DarkGray);
 
 
 
