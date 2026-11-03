@@ -2,6 +2,6 @@
 {
     public interface IMenuInterface
     {
-        void Run();
+        Task RunAsync();
     }
 }

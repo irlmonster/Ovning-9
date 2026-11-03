@@ -1,5 +1,6 @@
 ﻿using Garaget.Handlers;
 using Garaget.Vehicles;
+using Garaget.Storage;
 
 namespace Garaget.Tests
 {
@@ -9,7 +10,10 @@ namespace Garaget.Tests
         // så vi slipper upprepa parkeringen i varje test
         private static GarageHandler CreateHandlerWithVehicles()
         {
-            var handler = new GarageHandler(10);
+
+            var filePath = Path.Combine(Path.GetTempPath(), $"garage-{Guid.NewGuid()}.json");
+            var storage = new JsonGarageStorage(filePath);
+            var handler = new GarageHandler(10, storage);
 
             handler.Park(new Car("AAA111", "Röd", 4, "Volvo", "Bensin", CarType.Kombi));
             handler.Park(new Car("BBB222", "Röd", 4, "Saab", "Diesel", CarType.Sedan));
@@ -93,5 +97,43 @@ namespace Garaget.Tests
             Assert.Equal(new TypeCount("Motorcycle", 1), result[2]);
         }
 
+        [Fact]
+        public async Task SaveAndLoad_WithVehicles_RestoresGarage()
+        {
+            // Arrange
+            var filePath = Path.Combine(Path.GetTempPath(), $"garage-{Guid.NewGuid()}.json");
+            var storage = new JsonGarageStorage(filePath);
+            var handler = new GarageHandler(10, storage);
+            handler.Park(new Car("AAA111", "Röd", 4, "Volvo", "Bensin", CarType.Kombi));
+            handler.Park(new Bus("DDD444", "Röd", 6, "Scania", 50));
+            
+            // Act
+            await handler.SaveAsync();
+            var loadedHandler = new GarageHandler(1, storage);
+            await loadedHandler.LoadAsync();
+            
+            // Assert
+            Assert.Equal(2, loadedHandler.Count);
+            Assert.Equal(10, loadedHandler.Capacity);
+            File.Delete(filePath);
+        }
+
+
+        [Fact]
+        public async Task Load_FileMissing_KeepsCurrentGarage()
+        {
+            // Arrange
+            var filePath = Path.Combine(Path.GetTempPath(), $"garage-{Guid.NewGuid()}.json");
+            var handler = new GarageHandler(5, new JsonGarageStorage(filePath));
+            handler.Park(new Car("AAA111", "Röd", 4, "Volvo", "Bensin", CarType.Kombi));
+
+            // Act
+            await Assert.ThrowsAsync<FileNotFoundException>(async () => await handler.LoadAsync());
+
+            // Assert
+            Assert.Equal(1, handler.Count);
+            Assert.Equal(5, handler.Capacity);  
+
+        }
     }
 }

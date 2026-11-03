@@ -1,6 +1,7 @@
 ﻿using Garaget.Garages;
 using Garaget.Validation;
 using Garaget.Vehicles;
+using Garaget.Storage;
 
 namespace Garaget.Handlers
 {
@@ -10,10 +11,13 @@ namespace Garaget.Handlers
         public int Count => _garage.Count; // antal parkerade fordon, direkt från garaget
         public int Capacity => _garage.Capacity; // totala antalet platser, direkt från garaget
         public bool IsFull => _garage.IsFull;
+        private readonly IGarageStorage _storage;
 
-        public GarageHandler(int capacity)
+        public GarageHandler(int capacity, IGarageStorage storage)
+
         {
             _garage = new Garage<IVehicle>(capacity);
+            _storage = storage;
         }
 
         public void CreateNewGarage(int capacity)
@@ -80,6 +84,29 @@ namespace Garaget.Handlers
                 && (wheels is null || vehicle.Wheels == wheels)
                 && (brand is null || vehicle.Brand.Equals(brand, StringComparison.OrdinalIgnoreCase))
                 && (type is null || vehicle.GetType().Name.Equals(type, StringComparison.OrdinalIgnoreCase));
+        }
+
+
+
+        // Metod för att spara garaget till fil
+        public async Task SaveAsync()
+        {
+            var garageData = new GarageData
+            {
+                Capacity = _garage.Capacity,
+                Vehicles = _garage.ToList()
+            };
+            await _storage.SaveAsync(garageData);
+        }
+
+        public async Task LoadAsync()
+        {
+            var garageData = await _storage.LoadAsync();
+            CreateNewGarage(garageData.Capacity);
+            foreach (var vehicle in garageData.Vehicles)
+            {
+                _garage.Park(vehicle);
+            }
         }
     }
 }

@@ -33,7 +33,6 @@ Alla fordon har registreringsnummer, färg, märke och antal hjul.
 ## Teknik och upplägg
 
 - **.NET 10 / C#**, **xUnit** för enhetstester
-- Garaget lagrar fordonen i en privat List<IVehicle>. 
 - Abstrakt basklass `Vehicle` med gemensamma egenskaper, en subklass per fordonstyp
 - Fritextsökningen använder polymorfism: varje fordon har en egen `Matches`-metod som anropar basklassens och lägger till sina egna fält
 - Registreringsnummer valideras med regex (tre bokstäver, två siffror, en siffra eller bokstav) och normaliseras till versaler
@@ -41,7 +40,7 @@ Alla fordon har registreringsnummer, färg, märke och antal hjul.
 - All färgad utskrift och all inmatning är samlad i `ConsoleOutput` och `ConsoleInput`
 - `Garage<T>` är generiskt med constrainten where T : class, `IVehicle` och lagrar fordonen i en privat `List<T>`
 - Garaget implementerar `IEnumerable<T>` så att man kan använda LINQ direkt på garaget, t.ex. `garage.Where(v => v.Color == "Red")`
-- LINQ i GarageHandler används för sökning och gruppering (`Where`, `GroupBy`, `Select`, `ToList`, `FirstOrDefault`, `Any`)
+- LINQ i GarageHandler används för sökning och gruppering (`Where`, `GroupBy`, `Select`, `ToList`, `FirstOrDefault`)
 
 ## Struktur
 

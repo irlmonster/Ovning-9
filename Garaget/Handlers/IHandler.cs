@@ -16,5 +16,11 @@ namespace Garaget.Handlers
         bool Remove(string regNumber);
         List<IVehicle> Search(string searchTerm);
         List<IVehicle> SearchByProperties(string? color = null, int? wheels = null, string? brand = null, string? type = null);
+        Task SaveAsync();
+        Task LoadAsync();
+
     }
 }
+
+
+

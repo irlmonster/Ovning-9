@@ -1,5 +1,6 @@
 ﻿using Garaget.Handlers;
 using Garaget.Vehicles;
+using System.Text.Json;
 
 namespace Garaget.UI
 {
@@ -12,7 +13,7 @@ namespace Garaget.UI
             _handler = handler;
         }
 
-        public void Run()
+        public async Task RunAsync()
         {
             bool isRunning = true;
 
@@ -29,9 +30,10 @@ namespace Garaget.UI
                 Console.WriteLine("6. Sök fordon");
                 Console.WriteLine("7. Fyll garaget med testfordon");
                 Console.WriteLine("8. Skapa nytt garage");
+                Console.WriteLine("9. Spara eller ladda från fil");
                 Console.WriteLine("0. Avsluta");
                 Console.WriteLine();
-                Console.Write("Välj (0-8): ");
+                Console.Write("Välj (0-9): ");
 
                 string input = Console.ReadLine() ?? "";
                 Console.WriteLine();
@@ -75,6 +77,10 @@ namespace Garaget.UI
 
                     case "8":
                         CreateNewGarage();
+                        ConsoleOutput.Pause();
+                        break;
+                    case "9":
+                        await FileMenuAsync();
                         ConsoleOutput.Pause();
                         break;
 
@@ -284,6 +290,75 @@ namespace Garaget.UI
                 Console.WriteLine(vehicle);
             }
         }
+
+        // Undermeny för fil: väljer spara eller ladda
+        private async Task FileMenuAsync()
+        {
+            ConsoleOutput.WriteHeader("Spara eller ladda garaget");
+            Console.WriteLine("1. Spara garaget");
+            Console.WriteLine("2. Ladda garaget");
+            Console.WriteLine("0. Tillbaka");
+
+            int choice = ConsoleInput.ReadInt("Välj (0-2): ", 0, 2);
+            Console.WriteLine();
+
+            if (choice == 1)
+            {
+                await SaveGarageAsync();
+            }
+            else if (choice == 2)
+            {
+                await LoadGarageAsync();
+            }
+            // 0 gör ingenting, vi går bara tillbaka till huvudmenyn
+        }
+
+        private async Task SaveGarageAsync()
+        {
+            try
+            {
+                await _handler.SaveAsync();
+                ConsoleOutput.WriteSuccess($"{_handler.Count} fordon sparades till fil.");
+            }
+            catch (UnauthorizedAccessException)
+            {
+                ConsoleOutput.WriteError("Programmet har inte behörighet att skriva filen.");
+            }
+            catch (IOException)
+            {
+                ConsoleOutput.WriteError("Filen kunde inte skrivas. Den kan vara öppen i ett annat program.");
+            }
+        }
+
+
+        private async Task LoadGarageAsync()
+        {
+            ConsoleOutput.WriteWarning("Det nuvarande garaget och alla fordon i det ersätts.");
+
+            try
+            {
+                await _handler.LoadAsync();
+                ConsoleOutput.WriteSuccess($"{_handler.Count} fordon laddades. Garaget har {_handler.Capacity} platser.");
+            }
+            catch (FileNotFoundException)
+            {
+                ConsoleOutput.WriteError("Det finns inget sparat garage än.");
+            }
+            catch (JsonException)
+            {
+                ConsoleOutput.WriteError("Filen är trasig och kunde inte läsas.");
+            }
+            catch (InvalidOperationException)
+            {
+                ConsoleOutput.WriteError("Filen innehåller inget garage.");
+            }
+            catch (ArgumentException)
+            {
+                ConsoleOutput.WriteError("Filen innehåller ett fordon med ogiltiga värden.");
+            }
+        }
+
+
 
         private void PopulateGarage()
         {
