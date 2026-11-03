@@ -33,7 +33,7 @@ namespace Garaget.Handlers
 
         public List<IVehicle> GetAllVehicles()
         {
-            return _garage.ToList(); // Bytt ut detta mot ToList eftersom vi har IEnumerable på garaget
+            return _garage.ToList(); 
         }
 
         public IVehicle? FindByRegNumber(string regNumber)
@@ -77,8 +77,8 @@ namespace Garaget.Handlers
             return matches;
         }
 
-        //Denna står kvar eftersom den inte gör något med arrayer.
-        // Villkoret för SearchByProperties: varje kriterium är antingen null (bryr oss inte) eller måste stämma
+       
+        // Villkoret för SearchByProperties varje kriterium är antingen null (bryr oss inte) eller måste stämma
         private static bool MatchesProperties(IVehicle vehicle, string? color, int? wheels, string? brand, string? type)
         {
 

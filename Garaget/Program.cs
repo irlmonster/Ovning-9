@@ -10,10 +10,10 @@ namespace Garaget
         {
 
             int capacity = ConsoleInput.ReadInt("Hur många platser ska garaget ha? ", 1, 1000);
-            IHandler _handler = new GarageHandler(capacity);
+            IHandler handler = new GarageHandler(capacity);
 
             //Skapa ett menyobjekt och sen kör vi metoden Run 
-            IMenuInterface menu = new MainMenu(_handler);
+            IMenuInterface menu = new MainMenu(handler);
             menu.Run();
 
             

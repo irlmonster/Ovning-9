@@ -18,11 +18,11 @@ namespace Garaget.Garages
                 throw new ArgumentOutOfRangeException(nameof(capacity), "Kapaciteten måste vara större än 0.");
             }
 
-            Capacity = capacity; // sätter det här objektet till den listan
+            Capacity = capacity; 
             _vehicles = new List<T>();
         }
 
-        // Park
+        // Parkera
         public bool Park(T vehicle)
         {
             if (IsFull) return false;
@@ -38,7 +38,7 @@ namespace Garaget.Garages
             return true;
         }
 
-        // Remove
+        // Ta bort ur garage
         public bool Remove(string regNumber)
         {
             var vehicle = FindByRegNumber(regNumber);
@@ -46,7 +46,7 @@ namespace Garaget.Garages
         }
 
 
-        // Find regnumber
+        // Söka på just regnummer, returnerar fordonet eller null om det inte finns
         public T? FindByRegNumber(string regNumber)
         {
             var result = _vehicles.FirstOrDefault(v => v.RegNumber.Equals(regNumber, StringComparison.OrdinalIgnoreCase));

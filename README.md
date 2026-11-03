@@ -1,9 +1,8 @@
-# Garage 2.0
+# Garage 3.0
 
 En konsolapplikation i C# som simulerar ett parkeringsgarage. Övning 5 i .NET-utbildningen hos Lexicon.
 
-Nu är det `version 2` och jag har bytt ut Arraylogiken mot Lists, väldigt smidigt när det var uppbyggt för refaktorisering innan, också  smidigt generellt med List. 
-Generics ser vi mer av `version 3`.
+Nu är det `version 3`, jag använder nu generics och LINQ.
 
 ## Funktioner
 
