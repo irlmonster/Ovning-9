@@ -1,6 +1,6 @@
 # Garage 3.0
 
-En konsolapplikation i C# som simulerar ett parkeringsgarage. Övning 5 i .NET-utbildningen hos Lexicon.
+En konsolapplikation i C# som simulerar ett parkeringsgarage. Övning 9 i .NET-utbildningen hos Lexicon.
 
 Nu är det `version 3`, jag använder nu generics och LINQ.
 
@@ -39,11 +39,14 @@ Alla fordon har registreringsnummer, färg, märke och antal hjul.
 - Registreringsnummer valideras med regex (tre bokstäver, två siffror, en siffra eller bokstav) och normaliseras till versaler
 - `GarageHandler` är mellanlagret mellan menyn och garaget, så menyn aldrig pratar direkt med garaget
 - All färgad utskrift och all inmatning är samlad i `ConsoleOutput` och `ConsoleInput`
+- `Garage<T>` är generiskt med constrainten where T : class, `IVehicle` och lagrar fordonen i en privat `List<T>`
+- Garaget implementerar `IEnumerable<T>` så att man kan använda LINQ direkt på garaget, t.ex. `garage.Where(v => v.Color == "Red")`
+- LINQ i GarageHandler används för sökning och gruppering (`Where`, `GroupBy`, `Select`, `ToList`, `FirstOrDefault`, `Any`)
 
 ## Struktur
 
 ```
-Garaget/
+Ovning-9/
 ├── Garaget/
 │   ├── Garages/        Garage, själva samlingen av fordon
 │   ├── Handlers/       GarageHandler IHandler och TypeCount
@@ -58,7 +61,7 @@ Garaget/
 
 ```bash
 git clone https://github.com/irlmonster/Ovning-9
-cd Garaget
+cd Ovning-9
 dotnet run --project Garaget
 ```
 

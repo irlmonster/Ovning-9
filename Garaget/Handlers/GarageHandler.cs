@@ -45,13 +45,10 @@ namespace Garaget.Handlers
         // Returnerar tex. car: 3, motorcycle: 2, bus: 1
         public List<TypeCount> GetTypeCounts()
         {
-
             var typeCounts = _garage
                 .GroupBy(v => v.GetType().Name) // grupperar fordonen efter typnamn
                 .Select(g => new TypeCount(g.Key, g.Count())) // skapar en TypeCount för varje grupp
                 .ToList(); // konverterar till lista
-
-
             return typeCounts;
         }
 
@@ -71,9 +68,7 @@ namespace Garaget.Handlers
         // Sök på en eller flera egenskaper. Null betyder att egenskapen inte används i sökningen.
         public List<IVehicle> SearchByProperties(string? color = null, int? wheels = null, string? brand = null, string? type = null)
         {
-            
             var matches = _garage.Where(v => MatchesProperties(v, color, wheels, brand, type)).ToList();
-
             return matches;
         }
 
@@ -81,7 +76,6 @@ namespace Garaget.Handlers
         // Villkoret för SearchByProperties varje kriterium är antingen null (bryr oss inte) eller måste stämma
         private static bool MatchesProperties(IVehicle vehicle, string? color, int? wheels, string? brand, string? type)
         {
-
             return (color is null || vehicle.Color.Equals(color, StringComparison.OrdinalIgnoreCase))
                 && (wheels is null || vehicle.Wheels == wheels)
                 && (brand is null || vehicle.Brand.Equals(brand, StringComparison.OrdinalIgnoreCase))
