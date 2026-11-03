@@ -46,8 +46,8 @@ Alla fordon har registreringsnummer, färg, märke och antal hjul.
 Garaget/
 ├── Garaget/
 │   ├── Garages/        Garage, själva samlingen av fordon
-│   ├── Handlers/       GarageHandler och TypeCount
-│   ├── UI/             MainMenu, ConsoleInput, ConsoleOutput
+│   ├── Handlers/       GarageHandler IHandler och TypeCount
+│   ├── UI/             MainMenu, ConsoleInput, ConsoleOutput och IMenuInterface
 │   ├── Validation/     RegNumberValidation
 │   └── Vehicles/       IVehicle, Vehicle, subklasserna och enums
 └── Garaget.Tests/
