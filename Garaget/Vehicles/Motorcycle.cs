@@ -4,6 +4,7 @@
     {
         public int CylinderVolume { get; }
         public MotorcycleType Type { get; }
+        public override string Details => $"{CylinderVolume} cc, {Type}";
 
         public Motorcycle(string regNumber, string color, int wheels, string brand, int cylinderVolume, MotorcycleType type) : base (regNumber, color, wheels, brand)
         {

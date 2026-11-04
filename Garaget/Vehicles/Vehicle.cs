@@ -1,4 +1,6 @@
 ﻿using Garaget.Validation;
+using System.Text.Json.Serialization;
+
 namespace Garaget.Vehicles
 {
     public abstract class Vehicle : IVehicle
@@ -7,9 +9,12 @@ namespace Garaget.Vehicles
         public string Color { get; }
         public int Wheels { get; }
         public string Brand { get; }
+        
+        [JsonIgnore]
+        public abstract string Details { get; } 
 
 
-        protected Vehicle( string regNumber, string color, int wheels, string brand)
+    protected Vehicle( string regNumber, string color, int wheels, string brand)
         {
             // Kallar på var validation för regnummer som vi byggt, kollar först så vi inte bygger ett halvt objekt i onödan
             if (!RegNumberValidation.IsValid(regNumber))

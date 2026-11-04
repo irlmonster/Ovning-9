@@ -14,6 +14,7 @@ namespace Garaget.Vehicles
         string Color { get; }
         int Wheels { get; }
         string Brand { get; }
+        string Details { get; } 
 
         // en metod som måste implementeras
         bool Matches(string searchTerm);

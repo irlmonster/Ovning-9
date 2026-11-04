@@ -5,6 +5,7 @@ namespace Garaget.Vehicles
     public class Boat : Vehicle
     {
         public double Length { get; }
+        public override string Details => $"{Length} m";
 
         public Boat(string regNumber, string color, int wheels, string brand, double length) : base(regNumber, color, wheels, brand)
         {

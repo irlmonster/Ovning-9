@@ -123,10 +123,7 @@ namespace Garaget.UI
                 return;
             }
 
-            foreach (var vehicle in vehicles)
-            {
-                Console.WriteLine(vehicle);
-            }
+            ConsoleOutput.WriteVehicleTable(vehicles);
         }
 
         private void ListVehicleTypes()
@@ -297,10 +294,7 @@ namespace Garaget.UI
 
             // Visa antal träffar och skriv ut varje fordon (använder fordonets ToString)
             ConsoleOutput.WriteSuccess($"{result.Count} fordon hittades:");
-            foreach (var vehicle in result)
-            {
-                Console.WriteLine(vehicle);
-            }
+            ConsoleOutput.WriteVehicleTable(result);
         }
 
         // Undermeny för fil: väljer spara eller ladda

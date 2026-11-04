@@ -3,6 +3,7 @@
     public class Bus : Vehicle
     {
         public int NumberOfSeats { get; }
+        public override string Details => $"{NumberOfSeats} säten";
 
         public Bus (string regNumber, string color, int wheels, string brand, int numberOfSeats) 
             : base (regNumber, color, wheels, brand)

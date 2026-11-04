@@ -4,6 +4,7 @@
     {
 
         public int NumberOfEngines{ get; }
+        public override string Details => $"{NumberOfEngines} motorer";
 
         public Airplane(string regNumber, string color, int wheels, string brand, int numberOfEngines) : base(regNumber, color, wheels, brand)
         {

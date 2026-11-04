@@ -5,6 +5,8 @@
         public string FuelType { get; }
         public CarType Type { get; }
 
+        public override string Details => $"{FuelType}, {Type}";
+
         public Car(string regNumber, string color, int wheels, string brand, string fuelType, CarType type) : base(regNumber, color, wheels, brand)
         {
             FuelType = fuelType;

@@ -1,4 +1,6 @@
-﻿namespace Garaget.UI
+﻿using Garaget.Vehicles;
+
+namespace Garaget.UI
 {
     // Hjälpklass för färgad utskrift i konsolen
     public static class ConsoleOutput
@@ -28,7 +30,22 @@
             Console.ReadKey(true);
         }
 
+        // Skriver ut fordon som en tabell med raka kolumner.
+        // Bredd efter kommatecknet: negativt = vänsterjusterat, positivt = högerjusterat.
+        public static void WriteVehicleTable(IEnumerable<IVehicle> vehicles)
+        {
+            // Rubrikraden
+            Console.WriteLine($"{"Typ",-11}{"Regnr",-8}{"Märke",-16}{"Färg",-8}{"Hjul",5}  Detaljer");
 
+            // Streck under rubriken
+            Console.WriteLine(new string('-', 70));
+
+            // En rad per fordon, med samma bredder som rubriken
+            foreach (var v in vehicles)
+            {
+                Console.WriteLine($"{v.GetType().Name,-11}{v.RegNumber,-8}{v.Brand,-16}{v.Color,-8}{v.Wheels,5}  {v.Details}");
+            }
+        }
 
 
         // Gemensam logik: sätt färg, skriv, återställ.
